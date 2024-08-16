@@ -92,6 +92,15 @@ header ul li a:hover {
     z-index: -1;
 }
 
+@keyframes drawLine {
+    from {
+        width: 0;
+    }
+    to {
+        width: 100%;
+    }
+}
+
 .s-hero .text p {
     max-width: 55.6rem;
     width: 100%;
@@ -311,6 +320,20 @@ footer .copy strong {
     .item-digital .info p {
         font-size: 1.6rem;
     }
+
+    .s-art-front .all {
+        gap: 1.6rem;
+        padding: 6rem 0;
+    }
+
+    .s-art-front .all .card-post:first-child,
+    .s-art-front .all .card-post:nth-child(2) {
+        grid-column: span 3;
+    }
+
+    footer .main-area .right {
+        max-width: 66.2rem;
+    }
 }
 
 /* Até tablet's  */
@@ -327,6 +350,60 @@ footer .copy strong {
     .s-digital ul li {
         max-width: 38.4rem;
         width: 100%;
+    }
+
+    .s-art-front .tittle-text {
+        flex-direction: column;
+        margin: 0 auto;
+        align-items: center;
+        margin-bottom: 4rem;
+        width: 100%;
+        text-align: center;
+    }
+
+    .s-art-front .tittle-text .left {
+        max-width: 100%;
+        text-align: center;
+        margin: 0 auto;
+    }
+
+    .s-art-front .tittle-text .left p {
+        margin-top: 0.8rem;
+        max-width: 100%;
+    }
+
+    .s-art-front .tittle-text .right {
+        max-width: 100%;
+        text-align: center;
+    }
+
+    .s-art-front .all {
+        grid-template-columns: 1fr;
+        padding-top: 4rem;
+    }
+
+    .s-art-front .all .card-post:first-child,
+    .s-art-front .all .card-post:nth-child(2) {
+        grid-column: initial;
+    }
+
+    footer .main-area {
+        flex-direction: column;
+        gap: 4rem;
+    }
+
+    footer .main-area .left {
+        max-width: 100%;
+        text-align: center;
+    }
+
+    footer .main-area .left img {
+        margin: 0 auto;
+    }
+
+    footer .main-area .right {
+        width: 100%;
+        max-width: 100%;
     }
 }
 
@@ -424,5 +501,64 @@ footer .copy strong {
         gap: 64px;
     }
 
-    
+    .s-art-front {
+        padding: 8rem 0;
+    }
+
+    .s-art-front .tittle-text h3 {
+        font-size: 2.8rem;
+        max-width: 22.7rem;
+        margin: 0 auto;
+    }
+
+    .s-art-front .tittle-text p {
+        font-size: 1.6rem;
+        margin-top: 0.8rem;
+    }
+
+    .s-newslatter h2 {
+        font-size: 4rem;
+    }
+
+    .s-newslatter p {
+        font-size: 1.8rem;
+    }
+
+    footer .main-area .right {
+        flex-direction: column;
+        align-items: center;
+        gap: 4.8rem;
+    }
+
+    footer .main-area .right .item-nav h6 {
+        text-align: center;
+    }
+
+    footer .main-area .right .item-nav ul li a {
+        text-align: center;
+        justify-content: center;
+    }
+
+    footer .main-area .right .item-nav:last-child {
+        width: 100%;
+        max-width: 100%;
+    }
+
+    footer .main-area .right .item-nav:last-child ul {
+        display: flex;
+        width: 100%;
+        max-width: 100%;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    footer .main-area .right .item-nav:last-child ul li:not(:last-child) {
+        margin-bottom: 0;
+    }
+
+    footer .copy {
+        text-align: center;
+        font-size: 1.4rem;
+    }
+
 }
