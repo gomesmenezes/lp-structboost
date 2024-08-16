@@ -4,6 +4,11 @@
 Landing Page desenvolvida no curso da StructBoost, onde fomos capazes de trabalhar profundamente com HTML e CSS. Trabalhamos com uma grande variedade de elementos, propriedades e animações através de CSS e da biblioteca AOS, que maximiza nossa produtividade com animações incríveis. Também organizamos as pastas de forma eficaz, o que deixa toda a estrutura do projeto organizada de maneira eficiente.
 
 
+## Acesse o projeto
+
+[StructBoost](https://gomesmenezes.github.io/lp-structboost/)
+
+
 ## Tech Stack
 
 **Front-End:** HTML e CSS
