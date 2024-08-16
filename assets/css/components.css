@@ -36,8 +36,6 @@
 .item-digital {
     max-width: 38.4rem;
     width: 100%;
-
-    flex-grow: 1;
 }
 
 .item-digital .icon {
@@ -105,4 +103,31 @@
 .card-post .text p{
     font-size: 1.6rem;
     color: var(--gray-600);
+}
+
+@media (max-width: 991px) {
+    .s-digital ul li{
+        text-align: center;
+    }
+
+    .s-digital ul li .icon {
+        margin: 0 auto;
+        margin-bottom: 1.6rem;
+    }
+
+    .s-digital ul li p br {
+        display: none;
+    }
+}
+
+@media (max-width: 560px) {
+
+    .s-digital .item-digital {
+    }
+
+    .s-digital .info p{
+        margin: 0 auto;
+        font-size: 1.8rem;
+        max-width: 319px;
+    }
 }
